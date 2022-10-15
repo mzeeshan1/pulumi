@@ -115,7 +115,7 @@ func main() {
 		if err != nil {
 			return err
 		}
-		ctx.Export("DB Instance Password", dbInstance.Endpoint)
+		ctx.Export("DB Instance Endpoint", dbInstance.Endpoint)
 		ctx.Export("DB Instance Password", dbInstance.Password)
 		return nil
 	})
